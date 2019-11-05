@@ -27,7 +27,7 @@ public class NameComparator implements Comparator<Item>
             return 0;
 
          */
-        return 0;
+        return  compareId1.compareTo(compareId2);
 
     }
 }
