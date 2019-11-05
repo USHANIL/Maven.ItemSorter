@@ -19,14 +19,7 @@ public class NameComparator implements Comparator<Item>
     {
         String compareId1=((Item)compareItem1).getName();
         String compareId2=((Item)compareItem2).getName();
-        /*if (compareId1>compareId2)
-            return 1;
-        else if (compareId1 < compareId2)
-            return -1;
-        else
-            return 0;
 
-         */
         return  compareId1.compareTo(compareId2);
 
     }
